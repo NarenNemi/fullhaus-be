@@ -66,7 +66,7 @@ app.post('/acronym', async(req,res) => {
 
 
 mongoose.
-connect('mongodb+srv://narennemi:narendeejaydb1@narendb.gkvcs0f.mongodb.net/Fullhaustest?retryWrites=true&w=majority')
+connect('mongodb+srv://narennemi:narendb1@narendb.gkvcs0f.mongodb.net/Fullhaustest?retryWrites=true&w=majority')
 .then(() => {
     console.log('connected to MongoDB')
     app.listen(3000, () => {
