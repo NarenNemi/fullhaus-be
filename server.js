@@ -76,11 +76,3 @@ connect('mongodb+srv://narennemi:narendb1@narendb.gkvcs0f.mongodb.net/Fullhauste
        console.log(error)
 })
 
-/*
-{
-	"_id": "607f291e810c19729de860tc",
-	"acronym": "GTG",
-	"definition": "Got to Go",
-	"__v": 0
-}
-*/
