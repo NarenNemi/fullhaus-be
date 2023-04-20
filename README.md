@@ -24,5 +24,8 @@ Once the project is opened in your editor, you will open a terminal and run an n
 Finally after installing after running your npm install you can now use my project, so you now write an npm run dev command in your terminal and my project 
 will be launched in development mode.
 
-You can now open postman and make get,post,delete and put requests to http://localhost:3000/acronym while view the data responses through the postman interface.
+You can now open postman and make get,post,delete and put requests while viewing the data responses through the postman interface.
+The get request can have parameters attached to it such as page and limit (ex: http://localhost:3000/acronym?page=1&limit=10&search=:search)
+and all other requests should follow (ex: http://localhost:3000/acronym/id).
+The request body should follow the schema
 
