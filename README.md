@@ -27,5 +27,5 @@ will be launched in development mode.
 You can now open postman and make get,post,delete and put requests while viewing the data responses through the postman interface.
 The get request can have parameters attached to it such as page and limit (ex: http://localhost:3000/acronym?page=1&limit=10&search=:search)
 and all other requests should follow (ex: http://localhost:3000/acronym/id).
-The request body should follow the schema found in the acronym.json file.
+The request body should follow the schema found in the acronyms.json file.
 
